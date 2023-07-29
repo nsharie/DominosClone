@@ -95,6 +95,7 @@ public class Pizza {
 	
 	//Dine In Functionality
 	static void dineIn(Pizza[] piz, int choiceMode) {
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		
 		while(true) {

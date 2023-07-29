@@ -45,7 +45,7 @@ public class PizzaAppMain {
 			Restuarant.displayRestaurant(restaurant);
 			System.out.println("Please Select the Restaurant");
 			int restSelection = sc.nextInt();
-			if(restSelection<5) {}
+			if(restSelection<4) {}
 			else {System.out.println("Please Select From Above Restuarants"); continue;}
 			System.out.println("Please select one of the options below");
 			System.out.println("Select an Option from below");
